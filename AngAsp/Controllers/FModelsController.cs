@@ -18,7 +18,7 @@ namespace AngAsp.Controllers
         // GET: FModels
         public async Task<ActionResult> Index()
         {
-            ViewBag.Name = "Waseem Feroz";
+            ViewBag.Name = "Waseem Feroz1";
             return View(await db.MyModel.ToListAsync());
         }
 
